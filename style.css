@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white; /* Passt zum blank-Konzept */
+}
+
+#game-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Falls du Links zu sozialen Medien hinzufügst */
+.social-links {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    z-index: 10;
+}
+
+.social-links a {
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+}
